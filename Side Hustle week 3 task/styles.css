@@ -1,0 +1,93 @@
+body {
+    background-image: url(/images/hustle-background.jpg);
+
+}
+
+.container {
+    border: 4px solid #fff;
+    border-radius: 5px;
+    height: 550px;
+    width: 40%;
+    margin: 5rem auto;
+    background-image: url("/images/hustle-background.jpg");
+    box-shadow: 5px 10px 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 0rem 2rem;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 14rem;
+    color: green;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 2px auto;
+    background-color: rgb(24, 24, 65);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 7px auto;
+    border: none;
+    box-shadow: 2PX 6PX 10PX black;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    font-size: 13px;
+}
+
+/* For Mobile Screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        height: 400px;
+        margin: 2rem auto;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        padding: 0 auto;
+        margin: 1rem auto;
+    }
+
+    h2 {
+        font-size: 10rem;
+        margin: 1.5rem auto;
+        padding: 1rem auto;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* For Tablets */
+     @media only screen and (min-width: 600px) (max-width: 1200px) {
+         .container{
+             width: 50%;
+         }
+         
+     }
+}
